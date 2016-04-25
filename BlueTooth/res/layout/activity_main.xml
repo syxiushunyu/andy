@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:orientation="vertical"
+     >
+
+    <Button
+        android:id="@+id/connectService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接服务端" />
+    
+    <Button
+        android:id="@+id/openBluetooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="开启蓝牙服务" />
+    
+    <Button
+        android:id="@+id/requestConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="请求连接" />
+    
+    <Button
+        android:id="@+id/send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="发送" />
+    
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:gravity="center_vertical"
+        android:hint="发送"/>
+
+</LinearLayout>
